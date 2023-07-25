@@ -95,8 +95,11 @@ class WidgetCor extends StatelessWidget {
       },
       child: Container(
         padding: const EdgeInsets.all(30),
-        margin: const EdgeInsets.fromLTRB(0, 10, 0, 10),
-        color: cor,
+        margin: const EdgeInsets.fromLTRB(15, 10, 15, 10),
+        decoration: BoxDecoration(
+          borderRadius: const BorderRadius.all(Radius.circular(15)),
+          color: cor,
+        ),
         child: Center(
           child: Text(nomeDaCor),
         ),
